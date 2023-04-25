@@ -25,7 +25,7 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [PORTFOLIO: MOBILE FIRST] <a name="about-project"></a>
+# 📖 PORTFOLIO: MOBILE FIRST <a name="about-project"></a>
 
 [PORTFOLIO: MOBILE FIRST] is a project that creates a simple mobile portfolio website
 The project is built using HTML, CSS and HTML&CSS linters.

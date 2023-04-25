@@ -8,10 +8,10 @@
 }
 
 .mylogo {
-  background: #ffffff;
+  background: #fff;
   width: 70px;
   height: 24px;
-  font-family: 'Roboto';
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -40,7 +40,8 @@
   width: 40px;
   left: 311px;
   top: 4px;
-  padding: 8px;  
+  padding: 8px;
+  
   border-radius: 8px;
   flex-direction: row;
   align-items: flex-start; 

@@ -1,8 +1,6 @@
 .header {
   height: 48px;
   width: 375px;
-  left: 0px;
-  top: 44px;
   border-radius: 0px;
   display: flex;
   background: #3C3A39;
@@ -27,14 +25,11 @@
 }
 
 .placeholder {
-  flex-direction: row;
-  align-items: center;
   padding: 10px 12px;
   position: absolute;
   width: 94px;
   height: 44px;
   left: 12px;
-  height: 44px;
   top: 2px;
   border-radius: 0px;
 }
@@ -55,14 +50,7 @@
 .headline {
   height: 590px;
   width: 375px;
-  left: 0px;
-  top: 92px;
-  border-radius: 0px;
-  padding: 120px 24px;
   background: #1C1A19;
-  box-sizing: border-box;
-  align-items: flex-start;
-  padding: 120px 24px;
 }
 
 .primarytext {
@@ -70,7 +58,6 @@
   width: 327px;
   left: 24px;
   top: 105px;
-  border-radius: nullpx;
   font-family: Crete Round;
   font-size: 30px;
   font-weight: 140;
@@ -78,9 +65,6 @@
   letter-spacing: 0.3700000047683716px;
   text-align: left;
   color: #FF6B00;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
   position: absolute;
 }
 
@@ -89,15 +73,11 @@
   width: 327px;
   left: 24px;
   top: 230px;
-  border-radius: nullpx;
   font-family: Roboto;
   line-height: 32px;
   letter-spacing: 0em;
   text-align: left;
   color: #FFF5E1;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
   position: absolute;
 }
 
@@ -106,7 +86,6 @@
   width: 327px;
   left: 24px;
   top: 275px;
-  border-radius: nullpx;
   font-family: Poppins;
   font-size: 16px;
   font-weight: 400;
@@ -114,15 +93,10 @@
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
   position: absolute;
 }
 
 .social {
-  height: 40px;
-  width: 200px;
   left: 24px;
   top: 397px;
   border-radius: 0px;

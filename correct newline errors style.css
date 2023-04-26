@@ -105,7 +105,6 @@
   display: flex;
   flex-direction: row;
   padding: 0;
-
   width: 200px;
   height: 40px;
   justify-content: space-evenly;
@@ -119,7 +118,6 @@
   top: 495px;
   border-radius: 0;
   bottom: -13.36%;
-
 }
 
 .v1 {
@@ -156,7 +154,6 @@
   width: 44px;
   left: 309.5px;
   top: 466px;
-
   border-radius: 0;    
 }
 
@@ -165,7 +162,6 @@
   height: 46px;
   width: 44px;
   left: 301px;
-
   top: 463px;
   border-radius: 0;    
 }
@@ -192,7 +188,6 @@
   position: absolute;
   height: 13px;
   width: 13px;
-
   left: 373px;
   top: 585px;
   border-radius: 0;    
@@ -201,7 +196,6 @@
 .v-8-3 {
   position: absolute;
   height: 8px;
-
   width: 13px;
   left: 364px;
   top: 601px;
@@ -210,7 +204,6 @@
 
 .v-8-4 {
   position: absolute;
-
   height: 22px;
   width: 35px;
   left: 373px;

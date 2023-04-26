@@ -41,12 +41,11 @@
   left: 311px;
   top: 4px;
   padding: 8px;
-
   border-radius: 8px;
   flex-direction: row;
   align-items: flex-start;
   right: 24px;
- }
+}
 
 .headline {
   height: 590px;

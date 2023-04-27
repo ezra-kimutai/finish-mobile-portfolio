@@ -21,14 +21,13 @@ body {
 
 .logo {
   color: #fff;
-  font-size: 27px;
+  font-size: 18px;
   font-family: Roboto, sans-serif;
   margin-left: 3vw;
 }
 
 .hamburger {
   margin-right: 5vw;
-  zoom: 150%;
 }
 
 .primary {
@@ -79,6 +78,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  background: #1c1a19;
 }
 
 .group {

@@ -234,12 +234,10 @@ main {
   letter-spacing: 0.03em;
   width: 38%;
   height: 40px;
-
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-
   color: #fff;
   background: #ff6b00;
   line-height: 24px;
@@ -374,8 +372,7 @@ main {
 .aboutpara {
   width: 327px;
   height: 148px;
-
-font-family: Inter, sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -411,7 +408,6 @@ font-family: Inter, sans-serif;
 .language-container {
   width: 43.7%;
   height: 24px;
-
   font-family: InaiMathi, serif;
   font-style: normal;
   font-weight: 700;
@@ -700,11 +696,5 @@ textarea {
 
   body {
     box-sizing: border-box;
-  }
-}
-
-@media (min-width: 375px) {
-  * {
-  font-style: normal;
   }
 }

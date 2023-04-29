@@ -36,7 +36,6 @@ a:hover {
 .header {
   background-image: url(image/black-head.png);
   height: 590px;
-  
 }
 
 .primary {
@@ -55,7 +54,9 @@ a:hover {
   flex-grow: 0;
 }
 
-.supportive { 
+.supportive {
+
+  
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -117,8 +118,7 @@ main {
   color: #1c1a19;
   max-width: 91.6%;
   height: 83px;
-
-  font-family: 'Crete Round', serif;
+  font-family: Crete Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -149,7 +149,6 @@ main {
 .yogalady {
   width: 100%;
   height: 237px;
-
   background-repeat: no-repeat;
   background-size: cover;
   border: none;
@@ -163,8 +162,7 @@ main {
 .multi-post1 {
   width: 100%;
   height: 36px;
-  
-  font-family: 'Crete Round', serif;
+  font-family: Crete Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -180,8 +178,7 @@ main {
 .para-works1 {
   width: 100%;
   height: 147px;
-
-  font-family: 'Inter', sans-serif;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -194,10 +191,6 @@ main {
   order: 0;
   flex-grow: 0;
   color: #091e42;
-}
-
-ul {
-  list-style: none;
 }
 
 .list1 {
@@ -242,9 +235,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   width: 38%;
-  height: 40px;
-  
-  font-family: 'Inter', sans-serif;
+  height: 40px; 
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -298,8 +290,7 @@ ul {
 .professional {
   width: 90%;
   height: 81px;
-  
-  font-family: 'Crete Round';
+  font-family: Crete Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -313,8 +304,7 @@ ul {
 .paragraphworks {
   width: 90%;
   height: 99px;
-
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -361,8 +351,7 @@ ul {
 .aboutme {
   width: 88%;
   height: 79px;
-  
-  font-family: 'Crete Round';
+  font-family: Crete Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
@@ -386,7 +375,7 @@ ul {
   width: 327px;
   height: 148px;
 
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -423,7 +412,7 @@ ul {
   width: 43.7%;
   height: 24px;
   
-  font-family: 'InaiMathi';
+  font-family: InaiMathi, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -445,7 +434,7 @@ ul {
   display: flex;
   flex-direction: column;
   color: #fff;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -458,7 +447,7 @@ ul {
 .frames-containerwork {
   width: 60.5%;
   height: 24px;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -475,7 +464,7 @@ ul {
 }
 
 .frameworks-list {
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -492,7 +481,7 @@ ul {
 .skills-container {
   width: 30.67%;
   height: 24px;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -509,7 +498,7 @@ ul {
 }
 
 .skills-list {
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -608,7 +597,7 @@ ul {
   width: 88%;
   height: 216px;
   
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -624,7 +613,7 @@ ul {
 #full-name {
   width: 79%;
   height: 18px;
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -719,5 +708,14 @@ textarea {
 
   textarea {
     height: 200px;
+  }
+   body {
+    box-sizing: border-box;
+   }
+ }
+
+ @media(min-width: 375px) {
+  * {
+    font-style: normal;
   }
  }

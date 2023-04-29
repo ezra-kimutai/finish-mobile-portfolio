@@ -234,7 +234,7 @@ main {
   letter-spacing: 0.03em;
   width: 38%;
   height: 40px;
- 
+
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -375,7 +375,7 @@ main {
   width: 327px;
   height: 148px;
 
-  font-family: Inter, sans-serif;
+font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -401,7 +401,7 @@ main {
   display: flex;
   flex-grow: 0;
 }
-  
+
 .nameslist {
   display: flex;
   flex-direction: column;
@@ -411,7 +411,7 @@ main {
 .language-container {
   width: 43.7%;
   height: 24px;
-  
+
   font-family: InaiMathi, serif;
   font-style: normal;
   font-weight: 700;
@@ -564,7 +564,6 @@ main {
   width: 68%;
   height: 24px;
   margin: 0 52.5px 64px 67.5px;
-  
 }
 
 .control {

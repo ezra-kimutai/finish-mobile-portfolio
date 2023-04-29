@@ -55,8 +55,6 @@ a:hover {
 }
 
 .supportive {
-
-  
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -240,6 +238,7 @@ main {
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
+
   color: #fff;
   background: #ff6b00;
   line-height: 24px;
@@ -253,6 +252,9 @@ main {
 .workswidth {
   width: 87.2%;
   margin: 56px 24px 120px 24px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
 }
 
 .works2 {
@@ -318,7 +320,6 @@ main {
 .boxes2 {
   display: flex;
   justify-items: flex-start;
-  
 }
 
 .waks1 {
@@ -365,8 +366,6 @@ main {
   flex: none;
   order: 0;
   flex-grow: 0;
-  padding-top: 250px;
-  padding-left: 4px;
   margin: 120px 24px 24px 24px;
   padding: 10px 10px 10px 0;
 }
@@ -386,7 +385,7 @@ main {
   flex-wrap: wrap;
   align-self: flex-start;
   padding: 2px 10px 2px 0;
-  color: #F4F5F7;
+  color: #f4f5f7;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -423,7 +422,6 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -439,7 +437,6 @@ main {
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
-  display: flex;
   align-items: center;
   text-align: center;
 }
@@ -596,7 +593,6 @@ main {
 .myself-desc {
   width: 88%;
   height: 216px;
-  
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -607,7 +603,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin: 69px 25px 70px 23px;
-
 }
 
 #full-name {
@@ -618,7 +613,6 @@ main {
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-  padding-bottom: 14px;
   display: flex;
   flex-wrap: wrap;
   align-self: center;
@@ -631,7 +625,7 @@ main {
 }
 
 .emailadres {
-  font-family: 'Inter';
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -693,13 +687,7 @@ textarea {
   margin: 0 122px, 11px 119px;
 }
 
-.workswidth {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 24px;
-}
-
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .workswidth {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -707,15 +695,15 @@ textarea {
   }
 
   textarea {
-    height: 200px;
+  height: 200px;
   }
    body {
-    box-sizing: border-box;
+  box-sizing: border-box;
    }
  }
 
- @media(min-width: 375px) {
+ @media (min-width: 375px) {
   * {
-    font-style: normal;
+  font-style: normal;
   }
  }

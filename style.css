@@ -48,7 +48,12 @@ a:hover {
   letter-spacing: 0.37px;
   height: 124px;
   margin-left: 2vw;
-  padding-top: 1.8em;
+  margin-top: 0;
+  padding-top: 75px;
+  padding-bottom: 0;
+  margin-bottom: 8px;
+  display: flex;
+  flex-wrap: wrap;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -83,6 +88,30 @@ a:hover {
   flex-grow: 0;
 }
 
+button {
+  color: #fff;
+  background-color: #ff6b00;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+
+button:hover {
+  background-color: ;
+}
+button:enabled {
+  background-color: #ff6b00;
+  opacity: 0.9;
+}
+
+button:disabled {
+  background-color: #ddd;
+  color: #3c3a39;
+  cursor: not-allowed;
+}
+
 ul {
   list-style-type: none;
 }
@@ -102,7 +131,7 @@ ul {
   width: 70%;
   height: 256.89px;
   position: absolute;
-  left: 565.74%;
+  left: 65.74%;
   right: -30.09%;
   top: 350px;
 }
@@ -134,7 +163,7 @@ main {
 }
 
 .works1 {
-  border: none;
+  border: 1px solid #fff;
   width: 100%;
   height: 560px;
   margin: 80px 0 24px 0;
@@ -229,19 +258,17 @@ main {
 
 .button1 {
   display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
+  max-width: 124px;
+  box-sizing: border-box;
   width: 38%;
   height: 40px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
-  color: #fff;
-  background: #ff6b00;
   line-height: 24px;
-  margin: 24px 227px o 24px;
+  margin: 24px 227px 0 24px;
   border: none;
   flex: none;
   order: 0;
@@ -297,9 +324,13 @@ main {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
   flex: none;
   order: 0;
   flex-grow: 0;
+  margin-left: 16px;
+  margin-bottom: 12px;
 }
 
 .paragraphworks {
@@ -310,7 +341,12 @@ main {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  margin-left: 16px;
+  margin-bottom: 12px;
+  padding-right: 10px;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -318,6 +354,7 @@ main {
 
 .boxes2 {
   display: flex;
+  flex-wrap: wrap;
   justify-items: flex-start;
 }
 
@@ -331,10 +368,9 @@ main {
 
 .button2 {
   width: 100%;
-  background: #ff6b00;
-  border: none;
-  color: #fff;
   height: 48px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .afterworks {
@@ -349,44 +385,49 @@ main {
 }
 
 .aboutme {
-  width: 88%;
+  max-width: 327px;
   height: 79px;
   font-family: Crete Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
   line-height: 88px;
+  box-sizing: border-box;
   letter-spacing: 0.37px;
   color: #ff6b00;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-self: center;
   justify-self: center;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 120px 24px 24px 24px;
-  padding: 10px 10px 10px 0;
+  margin: 50px 24px 12px 15px;
+  padding: 0;
 }
 
 .aboutpara {
   width: 327px;
-  height: 148px;
+  height: 100px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin-right: 24px;
-  margin-left: 24px;
+  box-sizing: border-box;
+  margin: 12px 24px 24px 15px;
   display: flex;
   flex-wrap: wrap;
   align-self: flex-start;
-  padding: 2px 10px 2px 0;
   color: #f4f5f7;
   flex: none;
   order: 1;
   flex-grow: 0;
+}
+
+.abbout {
+  background-color: #fff;
+  width: 90%;
 }
 
 .aboutbutton {
@@ -394,9 +435,17 @@ main {
   background-repeat: no-repeat;
   width: 41.6%;
   height: 48px;
-  margin: 24px 195px 0 24px;
+  margin: 44px 195px 120px 24px;
   display: flex;
+  flex: none;
   flex-grow: 0;
+  order: 2;
+}
+
+.group2 {
+  position: absolute;
+  left: 50%;
+  top: 4120px;
 }
 
 .nameslist {
@@ -413,15 +462,10 @@ main {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  justify-content: center;
-  align-content: center;
   color: #fff;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  justify-content: center;
+  text-align: start;
   margin: 136.73px 86.77px 44.73px 124.23px;
 }
 
@@ -438,7 +482,16 @@ main {
   text-align: center;
 }
 
-.frames-containerwork {
+hr {
+  width: 90%;
+  height: 1px solid black;
+  opacity: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-self: center;
+}
+
+.frames-container {
   width: 60.5%;
   height: 24px;
   font-family: Inter, sans-serif;
@@ -447,29 +500,13 @@ main {
   font-size: 32px;
   line-height: 44px;
   margin: 0 59px 44px 89px;
-  padding-left: 5px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
+  grid-row: 1/3;
+  gap: 10px;
   color: #fff;
   order: 1;
-  flex-grow: 0;
-}
-
-.frameworks-list {
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .skills-container {
@@ -481,26 +518,34 @@ main {
   font-size: 32px;
   line-height: 44px;
   margin: 0 59px 42.5px 145px;
+  color: #fff;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  text-align: center;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-.skills-list {
+.all-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#similartex {
+  width: 30.4%;
+  height: 24px;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
   color: #fff;
   flex: none;
   order: 0;
@@ -508,81 +553,150 @@ main {
 }
 
 .javascript {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .html {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .ruby {
   width: 43.2%;
   height: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  flex-wrap: wrap;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: #fff;
   margin: 0 106.5px 32px 106.5px;
 }
 
 .css {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .react {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .ror {
-  display: inline-block;
   width: 30%;
   height: 24px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: inline-flex;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 100px 32px 100px;
 }
 
 .rspec {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .capybara {
-  width: 30%;
-  height: 24px;
   margin: 0 130.5px 32px 130.5px;
 }
 
 .database {
-  width: 68%;
-  height: 24px;
+  width: 268%;
+  height: 27px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-wrap: wrap-reverse;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 52.5px 64px 67.5px;
 }
 
-.control {
+.version {
   width: 63.4%;
-  height: 24px;
+  height: 36px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 69.5px 26px 67.5px;
 }
 
 .cli {
   width: 64%;
   height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 67.5px 32px 67.5px;
 }
 
 .design {
   width: 64.5%;
   height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 66.5px 32px 66.5px;
 }
 
 .webdev {
   width: 64.5%;
   height: 24px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
   margin: 0 66.5px 87.54px 66.5px;
 }
 
@@ -692,6 +806,9 @@ textarea {
 
   textarea {
     height: 200px;
+  }
+  .aboutme {
+    width: 91%;
   }
 
   body {

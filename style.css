@@ -99,8 +99,9 @@ button {
 }
 
 button:hover {
-  background-color: ;
+  background-color: #d2a686;
 }
+
 button:enabled {
   background-color: #ff6b00;
   opacity: 0.9;
@@ -807,6 +808,7 @@ textarea {
   textarea {
     height: 200px;
   }
+
   .aboutme {
     width: 91%;
   }
